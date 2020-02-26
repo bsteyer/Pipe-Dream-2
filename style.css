@@ -10,6 +10,7 @@ h1{
   height: 24rem;
   margin:auto;
 }
+
 #drop-zone{
  display: inline-block;
 }
@@ -42,7 +43,7 @@ h1{
   background-color: green;
   margin-top: 25%;
 }
-.p3:before{
+.p3::before{
   content: "";
   display: block;
   position: absolute;
